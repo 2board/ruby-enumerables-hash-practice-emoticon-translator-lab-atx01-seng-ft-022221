@@ -26,7 +26,7 @@ def get_english_meaning(path, emoticon)
     if value[:english] == emoticon
       return key
     end
-    return "Sorry, that emoticon was not found"
+    return "sad"
   end
   # code goes here
 end
