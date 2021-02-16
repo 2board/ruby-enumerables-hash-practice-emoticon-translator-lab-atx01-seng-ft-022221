@@ -18,7 +18,7 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
     end
   end
-  
+  return "Sorry, that emoticon is not found"
 end
 
 def get_english_meaning
